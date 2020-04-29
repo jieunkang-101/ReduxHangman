@@ -1,5 +1,5 @@
 import wordReducer from '../../reducers/word-reducer';
-import wordData from '../../wordData';
+// import wordData from '../wordData';
 
 describe('wordReducer', () => {
 
@@ -8,6 +8,6 @@ describe('wordReducer', () => {
   });
 
   test('Should successfully place a new word to play new game', () => {
-    expect(wordReducer(wordData, { type: 'NEW_GAME' })).toEqual("randomWord");
+    expect(wordReducer({}, { type: 'NEW_GAME' })).toEqual("randomWord");
   });
 });  

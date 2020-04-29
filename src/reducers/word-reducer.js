@@ -8,4 +8,4 @@ export default (state = wordData, action) => {
     default :
       return state;
   }
-}
+} 
