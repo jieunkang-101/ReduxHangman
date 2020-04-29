@@ -6,9 +6,12 @@ class GameControl extends React.Component{
 
   render() {
     return(
-      <header>
-        <Title content="Hangman" />
-      </header>  
+      <div className="game">
+        <header>
+          <Title content="Hangman" />
+        </header>  
+
+      </div>
     )  
   }  
 }
